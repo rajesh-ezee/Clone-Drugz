@@ -9,8 +9,13 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ]
     ]
+    [
+            InlineKeyboardButton(
+                text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/HeartBeat_Offi"
+            ),
+            InlineKeyboardButton(
+                text="ᴄʜᴀᴛ", url=f"https://t.me/HeartBeat_Fam"
+            ),
+        ],
 )
 
-close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
-)
