@@ -100,7 +100,7 @@ def first_page(_):
             [
                 InlineKeyboardButton(text=_["C_B_1"], callback_data="help_callback chelp"),
             ],
-            [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")]
+            #[InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")]
         ]
     )
     return first_page_menu
