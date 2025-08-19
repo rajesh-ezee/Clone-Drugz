@@ -31,16 +31,15 @@ CLONES = set()
 C_BOT_DESC = "Wᴀɴᴛ ᴀ ʙᴏᴛ ʟɪᴋᴇ ᴛʜɪs? Cʟᴏɴᴇ ɪᴛ ɴᴏᴡ! ✅\n\nVɪsɪᴛ: @CloneMusicRobot ᴛᴏ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ!\n\n - Uᴘᴅᴀᴛᴇ: @HeartBeat_Offi\n - Sᴜᴘᴘᴏʀᴛ: @HeartBeat_Fam"
 
 C_BOT_COMMANDS = [
-                {"command": "/start", "description": "sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ"},
-                {"command": "/help", "description": "ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs."},
-                {"command": "/play", "description": "sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ."},
-                {"command": "/pause", "description": "ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ."},
-                {"command": "/resume", "description": "ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ."},
-                {"command": "/skip", "description": "ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ."},
-                {"command": "/end", "description": "ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ."},
-                {"command": "/ping", "description": "ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ."},
-                {"command": "/id", "description": "ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ɢʀᴏᴜᴘ ɪᴅ. ɪғ ᴜsᴇᴅ ʙʏ ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ, ɢᴇᴛs ᴛʜᴀᴛ ᴜsᴇʀ's ɪᴅ."}
-
+                {"command": "/start",  "description": "𝗌ᴛᴀʀᴛ ʙᴏᴛ"},
+                {"command": "/help",  "description": "ɢᴇᴛ ᴄᴏᴍᴍᴀɴᴅ𝗌"},
+                {"command": "/clone",  "description": "ᴍᴀᴋᴇ ᴏᴡɴ ʙᴏᴛ"},
+                {"command": "/start",  "description": "𝗌ᴛᴀʀᴛ ᴍᴇ"},
+                {"command": "/play",  "description": "ᴘʟᴀʏ 𝗌ᴏɴɢ"},
+                {"command": "/pause",  "description": "ᴘᴀᴜ𝗌ᴇ ᴄᴜʀʀᴜɴᴛ ᴛʀᴀᴄᴋ"},
+                {"command": "/resume",  "description": "ʀᴇ𝗌ᴜᴍᴇ ᴘᴀᴜ𝗌ᴇᴅ ᴛʀᴀᴄᴋ"},
+                {"command": "/skip",  "description": "𝗌ᴋɪᴘ ᴄᴜʀʀᴇɴᴛ 𝗌ᴏɴɢ"},
+                {"command": "/end",  "description": "𝗌ᴛᴏᴘ 𝗌ᴏɴɢ"}
             ]
 
 
