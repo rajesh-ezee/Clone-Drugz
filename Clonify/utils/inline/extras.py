@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import SUPPORT_CHAT
+from config import CHAT
 
 
 def botplaylist_markup(_):
@@ -33,7 +33,7 @@ def supp_markup(_):
             [
                 InlineKeyboardButton(
                     text=_["S_B_9"],
-                    url=SUPPORT_CHAT,
+                    url=CHAT,
                 ),
             ]
         ]
