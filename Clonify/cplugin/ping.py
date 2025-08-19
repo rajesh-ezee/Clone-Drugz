@@ -5,7 +5,7 @@ import psutil
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from config import SUPPORT_CHAT, PING_IMG_URL, CHAT
+from config import SUPPORT_CHANNEL, PING_IMG_URL, CHAT
 from .utils import StartTime
 from Clonify.utils import get_readable_time
 from Clonify.utils.database.clonedb import get_owner_id_from_db, get_cloned_support_chat, get_cloned_support_channel
@@ -45,8 +45,8 @@ async def ping_clone(client: Client, message: Message):
 ๏ **ᴅɪsᴋ :** {disk}""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT)],
-                [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url=CHAT)],
+                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=CHAT),
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url=SUPPORT_CHANNEL),
             ]
         ),
     )
