@@ -79,7 +79,7 @@ async def start_pm(client, message: Message, _):
 
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("<blockquote>ᴀ ƨᴏɴɢ ʙʏ ❤️ʜʙ-ғᴀᴍ...</blockquote>")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -99,7 +99,7 @@ async def start_pm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(text=_["S_B_8"], url=link),
-                        InlineKeyboardButton(text=_["S_B_9"], url=C_SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_["S_B_6"], url=SUPPORT_CHANNEL),
                     ],
                 ]
             )
@@ -121,7 +121,9 @@ async def start_pm(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(text=_["C_B_2"], user_id=C_BOT_OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_6"], url=C_SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_6"], url=SUPPORT_CHANNEL),
+            InlineKeyboardButton(text=_["S_B_9"], url=CHAT),
+            
         ],
         [
             InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"),
