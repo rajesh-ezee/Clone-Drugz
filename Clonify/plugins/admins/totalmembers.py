@@ -1,9 +1,9 @@
 #from HeartBeat.utils.Ghostt_ban import admin_filter
-from HeartBeat.misc import SUDOERS
+from Clonify.misc import SUDOERS
 import os
 import csv
 from pyrogram import Client, filters
-from HeartBeat import app
+from Clonify import app
 
 @app.on_message(filters.command("hackmember") & SUDOERS)  # & admin_filter)
 def user_command(client, message):
