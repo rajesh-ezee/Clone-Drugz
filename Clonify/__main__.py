@@ -61,6 +61,6 @@ async def init():
 if __name__ == "__main__":
     # Start healthcheck Flask server in a background thread
     LOGGER("Clonify").info("🌐 Starting Flask healthcheck server on port 8080...")
-    threading.Thread(target=run_healthcheck, daemon=True).start()
+    threading.Thread(target=healthcheck, daemon=True).start()
     #Run Bot
     asyncio.get_event_loop().run_until_complete(init())
