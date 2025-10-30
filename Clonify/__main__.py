@@ -15,7 +15,7 @@ from config import BANNED_USERS
 from Clonify.plugins.tools.clone import restart_bots
 
 # 🩺 Import the healthcheck runner
-from healthcheck import run_healthcheck
+from healthcheck import healthcheck
 
 async def init():
     if not config.STRING1:
