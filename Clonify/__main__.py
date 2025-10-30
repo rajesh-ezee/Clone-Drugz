@@ -15,6 +15,7 @@ from config import BANNED_USERS
 from Clonify.plugins.tools.clone import restart_bots
 
 # 🩺 Import the healthcheck runner
+import threading
 from healthcheck import healthcheck
 
 async def init():
