@@ -14,6 +14,8 @@ from Clonify.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 from Clonify.plugins.tools.clone import restart_bots
 
+# 🩺 Import the healthcheck runner
+from healthcheck import run_healthcheck
 
 async def init():
     if not config.STRING1:
@@ -56,4 +58,8 @@ async def init():
 
 
 if __name__ == "__main__":
+    # Start healthcheck Flask server in a background thread
+    LOGGER("Clonify").info("🌐 Starting Flask healthcheck server on port 8080...")
+    threading.Thread(target=run_healthcheck, daemon=True).start()
+    #Run Bot
     asyncio.get_event_loop().run_until_complete(init())
